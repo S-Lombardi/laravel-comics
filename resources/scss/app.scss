@@ -28,3 +28,26 @@ main{
         object-position: top;
     }
 }
+
+footer {
+
+    .footer-top {
+        background-color: #0076e4;
+        color: white;
+        height: 100px;
+        padding: 70px;
+
+        .footer-icons {
+            width: 80px; //rivedere misure
+            height: 40px
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    
+
+}
