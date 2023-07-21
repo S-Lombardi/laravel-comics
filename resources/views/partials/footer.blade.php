@@ -7,37 +7,48 @@
 
                 <ul class="d-flex align-items-center h-100 justify-content-around">
 
-                    <a href="/" class="text-white text-decoration-none"><li>
-                        <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-digital-comics.png')}}" alt="">
-                        <span class="ms-3 ">
-                            DIGITAL COMICS
-                        </span>
-                        </li></a>
-                    <a href="/" class="text-white text-decoration-none"><li>
-                        <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-merchandise.png')}}" alt=""> 
-                        <span class="ms-3 ">
-                            DC MERCHANDISE
-                        </span>
-                    </li></a>
-                    <a href="/" class="text-white text-decoration-none"><li>
-                        <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-subscriptions.png')}}" alt=""> 
-                        <span class="ms-3 ">
-                            SUBSCRIPTION
-                        </span>
-                    </li></a>
-                    <a href="/" class="text-white text-decoration-none"><li class="d-flex">
-                        <img class="footer-icons w-25" src="{{Vite::asset('./resources/img/buy-comics-shop-locator.png')}}" alt="">
-                        <span class="align-self-center ms-3 ">
-                            COMIC SHOP LOCATOR
-                        </span>
-                        </li></a>
-                    <a href="/" class="text-white text-decoration-none"><li class="text-center d-flex">
-                        <img class="footer-icons w-25" src="{{Vite::asset('./resources/img/buy-dc-power-visa.svg')}}" alt=""> 
-                        <span class="align-self-center ms-3 ">
-                            DC POWER VISA
-                        </span>
-                    </li></a>
-
+                    <li>
+                        <a href="/" class="text-white text-decoration-none">
+                            <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-digital-comics.png')}}" alt="">
+                            <span class="ms-3 ">
+                                DIGITAL COMICS
+                            </span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="text-white text-decoration-none">
+                            <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-merchandise.png')}}" alt=""> 
+                            <span class="ms-3 ">
+                                DC MERCHANDISE
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="text-white text-decoration-none">
+                            <img class="w-25" src="{{Vite::asset('./resources/img/buy-comics-subscriptions.png')}}" alt=""> 
+                            <span class="ms-3 ">
+                                SUBSCRIPTION
+                            </span>
+                        </a>
+                    </li>
+                    <li  class="d-flex">
+                        <a href="/" class="text-white text-decoration-none">
+                            <img class="footer-icons w-25" src="{{Vite::asset('./resources/img/buy-comics-shop-locator.png')}}" alt="">
+                            <span class="align-self-center ms-3 ">
+                                COMIC SHOP LOCATOR
+                            </span>
+                        </a>
+                    </li>
+                    <li class="text-center d-flex">
+                        <a href="/" class="text-white text-decoration-none">
+                            <img class="footer-icons w-25" src="{{Vite::asset('./resources/img/buy-dc-power-visa.svg')}}" alt=""> 
+                            <span class="align-self-center ms-3 ">
+                                DC POWER VISA
+                            </span>
+                        
+                        </a>
+                    </li>
                 </ul>
                 <!-- FINE Footer top - BLU -->
             </div>
@@ -50,47 +61,106 @@
                         <div>
                             <h5 class="fw-bold text-white ">DC COMICS</h5>
                             <ul class=" p-0">
-                                <a href="/" class="text-decoration-none text-secondary"><li>Characters</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>Comics</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>Movies</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>TV</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>Games</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>Videos</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>News</li></a>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Characters</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Comics</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Movies</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">TV</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Games</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Videos</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">News</a>
+                                </li>
                             </ul>
         
                             <h5 class="fw-bold text-white ">SHOP</h5>
                             <ul class="p-0">
-                                <a href="/" class="text-decoration-none text-secondary"><li>Shop DC</li></a>
-                                <a href="/" class="text-decoration-none text-secondary"><li>Shop DC Collectibles</li></a>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Shop DC</a>
+
+                                </li>
+                                <li>
+                                    <a href="/" class="text-decoration-none text-secondary">Shop DC Collectibles</a>
+
+                                </li>
                             </ul>
                         </div>
 
                         <div class="ms-5">
                             <h5 class="fw-bold text-white">DC</h5>
                                 <ul class="p-0">
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Terms Of Use</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Privacy policy (New)</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Ad Choice</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Advertising</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Jobs</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Subscriptions</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Talent Workshops</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>CPSC Certificates</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Ratings</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Shop Help</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>Contact Us</li></a>
+                                    
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Terms Of Use</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Privacy policy (New)</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Ad Choice</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Advertising</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Subscriptions</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Talent Workshops</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">CPSC Certificates</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Ratings</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Shop Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">Contact Us</a>
+                                    </li>
                                 </ul>
                         </div>
 
                         <div class="ms-4">
                             <h5 class="fw-bold text-white">SITES</h5>
                                 <ul class="p-0" >
-                                    <a href="/" class="text-decoration-none text-secondary"><li>DC</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>MAD Magazine</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>DC Kids</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>DC Universe</li></a>
-                                    <a href="/" class="text-decoration-none text-secondary"><li>DC Power Visa</li></a>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">DC</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">MAD Magazine</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">DC Kids</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">DC Universe</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-decoration-none text-secondary">DC Power Visa</a>
+                                    </li>
                                 </ul>
                         </div>
                     </div>    
@@ -106,7 +176,50 @@
                 </div>
             </div>
             <!-- FINE Footer middle - Link -->
+
+
+
+            <div class="col-12 bottom-footer d-flex justify-content-between px-5 py-3 align-items-center">
+                <div>
+                    <button class="btn btn-sm btn-outline-primary text-white ">SIGN-UP NOW</button>
+                </div>
+
+                <div  class="d-flex">
+                    <span class="align-self-center me-3 text-primary fw-bold">FOLLOW US</span>
+                    <ul class="list-unstyled d-flex pt-3">
+
+                        <li class="w-25 mx-1">
+                            <a href="/" class="">    
+                                <img src="{{Vite::asset('/resources/img/footer-facebook.png')}}" alt="">
+                            </a>
+                        </li>
+         
+                        <li class="w-25 mx-1">
+                            <a href="/" class="">    
+                                <img src="{{Vite::asset('/resources/img/footer-twitter.png')}}" alt="">
+                            </a>
+                        </li>
+
+                        <li class="w-25 mx-1">
+                            <a href="/" class="">    
+                                <img src="{{Vite::asset('/resources/img/footer-youtube.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="w-25 mx-1">
+                            <a href="/" class="">    
+                                <img src="{{Vite::asset('/resources/img/footer-pinterest.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="w-25 mx-1">
+                            <a href="/" class="">    
+                                <img src="{{Vite::asset('/resources/img/footer-periscope.png')}}" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
 
 </footer>
