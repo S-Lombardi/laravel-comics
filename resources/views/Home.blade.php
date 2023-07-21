@@ -20,6 +20,12 @@
     <!-- HEADER -->
         @include('partials.header')
     <!-- FINE HEADER -->
+
+    <!-- COMICS -->
+    <main>
+
+    </main>
+    <!-- FINE COMICS -->
     
 
 
