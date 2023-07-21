@@ -16,10 +16,15 @@
 </head>
 
 <body>
-   
-    <header>
+
+    <!-- HEADER -->
         @include('partials.header')
-    </header>
+    <!-- FINE HEADER -->
+    
+
+
+
+
 
 </body>
 
