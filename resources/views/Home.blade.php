@@ -21,8 +21,35 @@
         @include('partials.header')
     <!-- FINE HEADER -->
 
+    <!-- JUMBOTRON -->
+    <div>
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+    </div>
+
+    <!-- FINE JUMBOTRON -->
+
     <!-- COMICS -->
-    <main>
+    <main class="bg-dark p-5 mt-3">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col border me-3">
+                    comics
+                </div>
+                <div class="col border me-3">
+                    comics
+                </div>
+                <div class="col border me-3">
+                    comics
+                </div>
+                <div class="col border me-3">
+                    comics
+                </div>
+
+            
+                
+            </div>
+        </div>
 
     </main>
     <!-- FINE COMICS -->
