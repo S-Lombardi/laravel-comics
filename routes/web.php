@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//ROtta home Page
 Route::get('/', function () {
-    return view('home');
+    
+    //passo l'array comics alla home page  
+    $comics = config('db.comics');
+    return view('home', compact('comics'));
+
 });

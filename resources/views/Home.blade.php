@@ -22,32 +22,27 @@
     <!-- FINE HEADER -->
 
     <!-- JUMBOTRON -->
-    <div>
-        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+    <div id="jumbotron">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}">
     </div>
 
     <!-- FINE JUMBOTRON -->
 
     <!-- COMICS -->
-    <main class="bg-dark p-5 mt-3">
+    <main class="bg-dark p-5">
         <div class="container">
             <div class="row">
-                
-                <div class="col border me-3">
-                    comics
-                </div>
-                <div class="col border me-3">
-                    comics
-                </div>
-                <div class="col border me-3">
-                    comics
-                </div>
-                <div class="col border me-3">
-                    comics
-                </div>
+                <div class="col-12 d-flex flex-wrap">
 
-            
-                
+                    @foreach($comics as $comic)
+                    
+                    <div class="col-auto col-md-4 col-lg-2">
+                        
+                        <img src="{{ $comic['thumb']}}" alt="">
+    
+                    </div>
+                    @endforeach()
+                </div>
             </div>
         </div>
 
