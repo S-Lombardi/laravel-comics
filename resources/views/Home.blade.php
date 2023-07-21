@@ -35,11 +35,15 @@
                 <div class="col-12 d-flex flex-wrap">
 
                     @foreach($comics as $comic)
-                    
-                    <div class="col-auto col-md-4 col-lg-2">
-                        
+                    <div class="flex-column col-auto col-md-4 col-lg-2 d-flex justify-content-center my-3">
+                        <!-- Immagini -->
                         <img src="{{ $comic['thumb']}}" alt="">
-    
+                        <!-- titoli -->
+                        <div>
+                            <h5 class="text-light ">
+                                {{ $comic['title']}}
+                            </h5>
+                        </div>
                     </div>
                     @endforeach()
                 </div>
