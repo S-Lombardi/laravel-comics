@@ -83,8 +83,6 @@
                 
             </div>
             {{-- FINE TABLE RIGHT --}}
-
-    
         </div>
     </div>
 </div>
