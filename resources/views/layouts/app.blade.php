@@ -18,19 +18,17 @@
 <body>
     <!-- HEADER -->
     @include('partials.header')
-    <!-- FINE HEADER -->
-
+    
     <!-- JUMBOTRON -->
     <div id="jumbotron">
         <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}">
     </div>
-    <!-- FINE JUMBOTRON -->
-
+    
+    {{-- COMICS --}}
     <main>
-
+        @yeld('content')
     </main>
-
+    
     <!-- FOOTER -->
     @include('partials.footer')
-    <!-- FINE FOOTER -->
 </body>
