@@ -21,3 +21,11 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 
 });
+
+Route::get('/products/{comic}', function ($id){
+    $comics = config('db.comics');
+
+    $comic = $comics[$id];
+    return view('products.show', compact('comic'));
+
+})->name('products.show');
