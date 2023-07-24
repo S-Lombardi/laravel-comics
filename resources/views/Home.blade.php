@@ -4,7 +4,7 @@
 @section ('content')
 <main class="bg-dark">
     <div class="container"> 
-        <span class="p-3 bg-primary text-uppercase">
+        <span class="p-3 bg-primary text-uppercase text-light">
             Current Series
         </span>
         <div class="row">

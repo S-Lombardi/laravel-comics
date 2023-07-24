@@ -1,12 +1,11 @@
 <header>
     <div class="container">
-        <div class="row">
-
+        <div class="row p-3">
             <!-- COL LEFT -->
             <div class="col">
                 <!-- Logo -->
                 <div>
-                    <img src="{{Vite::asset('resources/img/dc-logo.png')}}" >
+                    <img class="logo" src="{{Vite::asset('resources/img/dc-logo.png')}}" >
                 </div>
             </div>
             <!-- FINE COL LEFT -->
