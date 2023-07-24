@@ -12,7 +12,7 @@
 
                     <a href="{{route('products.show', $id)}}">  
                         <!-- Immagini -->
-                        <img src="{{ $comic['thumb']}}" alt="">
+                        <img class="comic-size" src="{{ $comic['thumb']}}" alt="">
                         <!-- titoli -->
                         <div>
                             <h6 class="text-light text-center text-uppercase ">
