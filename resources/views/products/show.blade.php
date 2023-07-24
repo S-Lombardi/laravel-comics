@@ -24,7 +24,6 @@
                 {{$comic ['description']}}
             </p>
         </div>
-
         {{-- COL RIGHT --}}
         <div class="col-auto">
             {{-- Immagine Advertisement --}}
@@ -37,7 +36,7 @@
 </div>
 
 {{-- TALENT -SPECS --}}
-<div class="">
+<div class="border-top p-4">
     <div class="container">
         <div class="row">
             {{-- TABLE LEFT --}}
@@ -46,15 +45,24 @@
                     <thead>
                       <tr>
                         <th>Talent</th>
-                        </th>
                       </tr>
                     </thead>
                     <tbody>
                         <tr>
-                          <td> Art by: {{implode(",",$comic ['artists'])}}</td>
+                            <td class="d-flex"> 
+                                <div class="col-3">
+                                    Art by:
+                                </div> 
+                                {{implode(",",$comic ['artists'])}}
+                            </td>
                         </tr>
                         <tr>
-                            <td>Written by: {{implode(",",$comic ['writers'])}}</td>
+                            <td class="d-flex">
+                                <div class="col-3">
+                                    Written by:
+                                </div> 
+                                {{implode(",",$comic ['writers'])}}
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -67,18 +75,32 @@
                     <thead>
                       <tr>
                         <th>Specs</th>
-                        </th>
                       </tr>
                     </thead>
                     <tbody>
                         <tr>
-                          <td> Series: {{$comic ['series']}}</td>
+                            <td class="d-flex"> 
+                                <div class="col-3">
+                                    Series: 
+                                </div>
+                                {{$comic ['series']}}
+                            </td>
                         </tr>
                         <tr>
-                            <td>U.S Price: {{$comic ['price']}}</td>
+                            <td class="d-flex">
+                                <div class="col-3">
+                                    U.S Price:  
+                                </div>
+                                {{$comic ['price']}}
+                            </td>
                         </tr>
                         <tr>
-                            <td>On Sale Date: {{ date('Y-M-d', strtotime($comic['sale_date']))}}</td>
+                            <td class="d-flex">
+                                <div class="col-3">
+                                    On Sale Date:
+                                </div>
+                                {{ date('Y-M-d', strtotime($comic['sale_date']))}}
+                            </td>
                         </tr>
                     </tbody>
                 </table>

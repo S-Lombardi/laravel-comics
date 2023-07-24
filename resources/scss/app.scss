@@ -62,18 +62,22 @@ main{
         text-decoration: none;
         color: white;
     }
+    li{
+        list-style-type: none;
+    
+    }
 }
 footer {
 
    li{
     list-style-type: none;
 
-}
+    }
 
-.bottom-footer {
-    background-color: #303030;
-    height: 70px;
-    
-}
+    .bottom-footer {
+        background-color: #303030;
+        height: 70px;
+        
+    }
 
 }

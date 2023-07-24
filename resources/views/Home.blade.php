@@ -2,10 +2,11 @@
 
 <!-- COMICS -->
 @section ('content')
-<main class="bg-dark p-5">
+<main class="bg-dark">
+
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex flex-wrap">
+            <div class="col-12 d-flex flex-wrap p-5">
 
                 @foreach($comics as  $id => $comic)
                 <div class="flex-column col-auto col-md-4 col-lg-2 d-flex align-items-center my-3">
@@ -26,6 +27,8 @@
         </div>
     </div>
     <!-- FOOTER TOP - BLU -->
+    
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 px-5 footer-top">
