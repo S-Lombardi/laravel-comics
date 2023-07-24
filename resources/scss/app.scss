@@ -22,15 +22,15 @@ header{
         object-fit: cover;
         object-position: top;
     }
-    .rectangle-thumb{
-        height: 60px;
-        width: 100%;
-        background-color: #0282F9;
-    }
+}
+.rectangle-thumb{
+    height: 60px;
+    width: 100%;
+    background-color: #0282F9;
 }
 main{
     .comic-size{
-       width: 100px;
+       width: 150px;
        aspect-ratio: 2/3;
     }
 }
@@ -39,8 +39,7 @@ main{
 
 .comic-position {
     position:absolute;
-    width: 13%;
-    top: -13rem;
+    top: -18rem;
 }
 .bg-price {
     background-color: #55BA59;

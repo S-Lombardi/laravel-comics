@@ -1,6 +1,8 @@
 @extends ('layouts.app')
 
 @section ('content')
+{{-- Rettangolo blu sotto al fumetto --}}
+<div class="rectangle-thumb"></div>
 <div class="container">
     <div class="row p-5">
         {{-- COL LEFT --}}
