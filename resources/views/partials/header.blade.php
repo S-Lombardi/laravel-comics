@@ -39,6 +39,14 @@
                         <a href="">News</a>
                     </li>
                 </ul>
+
+            </div>
+            <div class="col">
+
+                <div class="input-group mb-3 d-flex align-items-center h-100">
+                    
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
             </div>
             <!-- FINE COL RIGHT -->
         </div>
