@@ -20,6 +20,8 @@
     <!-- JUMBOTRON -->
     <div id="jumbotron">
         <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}">
+        {{-- Rettangolo blu sotto al fumetto --}}
+        <div class="rectangle-thumb"></div>
     </div>
     
     {{-- COMICS --}}

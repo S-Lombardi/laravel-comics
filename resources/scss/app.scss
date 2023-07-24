@@ -6,21 +6,12 @@
     box-sizing: border-box;
 }
 
-
 header{
 
     li{
         list-style-type: none;
         display: inline-block;
         margin-right: 25px;
-    }
-}
-
-main{
-
-    .comic-size{
-       width: 100px;
-       aspect-ratio: 2/3;
     }
 }
 
@@ -31,7 +22,33 @@ main{
         object-fit: cover;
         object-position: top;
     }
+    .rectangle-thumb{
+        height: 60px;
+        width: 100%;
+        background-color: #0282F9;
+    }
 }
+main{
+    .comic-size{
+       width: 100px;
+       aspect-ratio: 2/3;
+    }
+}
+
+// SHOW //
+
+.comic-position {
+    position:absolute;
+    width: 13%;
+    top: -13rem;
+}
+
+
+.bg-price {
+    background-color: #55BA59;
+}
+
+// FINE SHOW //
 
 footer {
 
