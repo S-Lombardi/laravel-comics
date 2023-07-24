@@ -3,14 +3,14 @@
 <!-- COMICS -->
 @section ('content')
 <main class="bg-dark">
-
-    <div class="container">
+    <div class="container"> 
+        <span class="p-3 bg-primary text-uppercase">
+            Current Series
+        </span>
         <div class="row">
             <div class="col-12 d-flex flex-wrap p-5">
-
                 @foreach($comics as  $id => $comic)
                 <div class="flex-column col-auto col-md-4 col-lg-2 d-flex align-items-center my-3">
-
                     <a href="{{route('products.show', $id)}}">  
                         <!-- Immagini -->
                         <img class="comic-size" src="{{ $comic['thumb']}}" alt="">
@@ -39,7 +39,6 @@
                             <span class="ms-3 ">
                                 DIGITAL COMICS
                             </span>
-                            
                         </a>
                     </li>
                     <li>
