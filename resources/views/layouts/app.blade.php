@@ -26,7 +26,7 @@
     
     {{-- COMICS --}}
     <main>
-        @yeld('content')
+        @yield('content')
     </main>
     
     <!-- FOOTER -->
