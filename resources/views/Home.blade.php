@@ -1,10 +1,7 @@
-
-
 @extends('layouts.app')  <!-- estendo il contenuto di questa pagina con quello di app.blade -->
 
-
-@section ('content')
 <!-- COMICS -->
+@section ('content')
 <main class="bg-dark p-5">
     <div class="container">
         <div class="row">
@@ -27,10 +24,5 @@
     </div>
 
 </main>
-<!-- FINE COMICS -->
 @endsection 
-
-    
-
-
-
+<!-- FINE COMICS -->
